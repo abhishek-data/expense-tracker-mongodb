@@ -1,0 +1,82 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: url('/expense.jpg');
+  background-size: cover;
+}
+
+.loginForm {
+  background-color: rgba(255, 255, 255, 0.42);
+  box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.42);
+  backdrop-filter: blur(3px);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.loginTitle {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 18px;
+  color: blue !important;
+  margin-bottom: 20px;
+}
+
+.loginText {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.forgotPassword {
+  text-align: center;
+  color: blue;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #001529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.premium-button {
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.logout-button {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+
+.logout-button:hover {
+  background-color: #ff7875;
+  border-color: #ff7875;
+}
+
+.content {
+  padding: 24px;
+}
+
+.expense-form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
